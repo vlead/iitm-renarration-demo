@@ -1,0 +1,53 @@
+* Demo
+
+NOTE: All references to Alipi and alipi.us will refer to the virtual labs
+re-narration service.
+
+** Launch Alipi [http://alipi.us]
+
+** Talk about alipi and re-narration
+  + What is re-narration
+    + Alternative narratives to web content and to compose renditions based on
+      the user's context, literacy level, reading-comfort preferences etc.
+  + Why re-narration
+    + To maximize and leverage current set of learning assets.
+  + What is alipi and why and how it is helpful
+    + Alipi is the re-narration framework. Its a portal/web service which
+      facilitates user to re-narrate web content and contribute to the re-narration
+      platform.
+
+** Demo syllabus page [http://nptel.ac.in/syllabus/syllabus.php?subjectId=106105078]
+  + Show Original page
+  + Open the page via the alipi.us portal
+  + Show the renarrations ; point being - crowd sourced renarrations are now accessible
+
+** Demo of re-narration in the NPTEL home-page
+  + Go to the NPTEL homge page [http://nptel.ac.in]
+  + Copy the link
+  + Go to [http://alipi.us]
+  + Paste the link in the "Narrate" text box, and click Narrate or press enter.
+    A captcha might pop-up, to verify you are a human
+  + NPTEL Page loads with Alipi toolbar
+  + Click on "Login", to login to Alipi. This will pop-up a Persona prompt. To
+    which you can enter your Gmail id and login
+  + Once the login happens, in some cases, Alipi might ask you click on a link
+    to re-direct to the page you were re-narrating
+  + Click on re-narrate
+  + Alipi makes the page editable
+  + Click on any text, paragraph , which will pop up a small prompt, then click
+    "edit text". This will open up a small editor.
+  + Make modifications in the original text.
+  + Click save changes when done with modifications.
+  + The editor will close.
+  + On the top toolbar, now "Publish" option is available. Click on Publish to
+    publish the re-narration. (Which creates a swt at the backend).
+  + Now clicking on the "Re-narrations" button in the toolbar will show the
+    recently made re-narration
+  + You can also go to teststore.swtr.us to view the SWT that got generated.
+
+** Utility of re-narration for maximizing usage of current educational content
+  like NPTEL, VLabs etc.
+  + Talk about the technology...
+  + Talk about how it is useful for translation and content integration (mashup)
+
+** Under the hood architecture description - show and tell

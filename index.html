@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Virtual Labs re-narration service</title>
+  </head>
+  <body>
+    <h1> Virtual Labs Re-narration service</h1>
+    Enter a web address to re-narrate:
+    <input type="text" id="input-url"> <button onclick="wget();">Re-narrate</button>
+    <script type="text/javascript">
+      function wget() {
+        console.log('wget called');
+        var url = document.getElementById("input-url").value;
+        if(!url.match(/http/)) {
+          url = 'http://' + url;
+        }
+        window.open("http://y.a11y.in/web?foruri=" +
+            encodeURIComponent(url));
+      }
+      function keyPressed(event) {
+        console.log('keypressed called');
+        if(event.keyCode === 13) { // pressed enter
+          console.log('enter is pressed');
+          event.preventDefault();
+          wget();
+        }
+      }
+      window.onload = function() {
+        document.getElementById('input-url').addEventListener('keydown',
+            keyPressed);
+      };
+    </script>
+  </body>
+</html>
